@@ -1,0 +1,29 @@
+{
+  "name": "learn-fullstack-javascript",
+  "version": "1.0.0",
+  "description": "Learning Fullstack JavaScript Development: MongoDB, NodeJS, ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd",
+    "babel-version": "babel --version"
+  },
+  "author": "Timothy Fisher",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "eslint": "^3.18.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^2.3.0"
+  }
+}
